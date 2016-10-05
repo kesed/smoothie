@@ -1,0 +1,30 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.container {
+  position:relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.placeholder {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:red;
+  opacity: 1;
+  margin-bottom: 4px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.one {
+  /*filter: blur(30);*/
+}
