@@ -40,14 +40,8 @@ img {
   font-size: 3em;
 }
 
-.hero-placeholder {}
-
 /* */
 .page-content {padding: 1em;}
-
-.one {
-  /*filter: blur(30);*/
-}
 
 footer {
   background: purple;
