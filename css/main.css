@@ -25,7 +25,7 @@ img {
   position: relative;
   background: purple;
   overflow: hidden;
-  min-height: 200px;
+  min-height: 500px;
 }
 
 .hero-title {
