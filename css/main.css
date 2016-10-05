@@ -34,7 +34,7 @@ img {
   position: absolute;
   width: 100%;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 20vw;
   top: 0;
   color: white;
   font-size: 3em;
@@ -43,6 +43,7 @@ img {
 .hero-placeholder {}
 
 /* */
+.page-content {padding: 1em;}
 
 .one {
   /*filter: blur(30);*/
