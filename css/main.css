@@ -25,6 +25,7 @@ img {
   position: relative;
   background: purple;
   overflow: hidden;
+  min-height: 200px;
 }
 
 .hero-title {
@@ -34,6 +35,10 @@ img {
   margin-top: 200px;
   top: 0;
 }
+
+.hero-placeholder {}
+
+/* */
 
 .one {
   /*filter: blur(30);*/
