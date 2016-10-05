@@ -1,6 +1,15 @@
+/* Resets */
 * {
   margin:0;
   padding:0;
+  box-sizing: border-box;
+}
+
+h1, h2, p {margin-bottom: 1em;}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -9,22 +18,33 @@
   margin: 0 auto;
 }
 
-.placeholder {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background:red;
-  opacity: 1;
-  margin-bottom: 4px;
-}
-
-img {
+/* HERO */
+.hero-title {
+  position: absolute;
   width: 100%;
-  height: auto;
+  text-align: center;
+  margin-top: 200px;
+  top: 0;
 }
 
 .one {
   /*filter: blur(30);*/
+}
+
+footer {
+  background: purple;
+  padding: 1em;
+  overflow: hidden;
+  color: white;
+}
+
+footer ul {list-style: none;}
+footer a {color: white;text-decoration: none;}
+
+.footer-text {
+  float: left;
+}
+
+.footer-links {
+  float: right;
 }
