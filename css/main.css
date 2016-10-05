@@ -24,6 +24,7 @@ img {
 .hero {
   position: relative;
   background: purple;
+  overflow: hidden;
 }
 
 .hero-title {
