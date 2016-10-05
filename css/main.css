@@ -42,6 +42,8 @@ img {
 
 .hero-placeholder {}
 
+.quick-load-image {opacity: 0;transition: 1s;}
+
 /* */
 .page-content {padding: 1em;}
 
