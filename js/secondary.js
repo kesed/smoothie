@@ -1,3 +1,5 @@
+var $ =jQuery.noConflict();
+
 var image = $("img.full-size");
 
 $(image).one("load", function() {
