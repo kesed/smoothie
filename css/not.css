@@ -7,7 +7,7 @@ img {width: 100%;height: auto;}
 /* Base Styles */
 .container {position:relative;margin: 0 auto;}
 .page-content {padding: 1em;}
-.img-wrapper {position: absolute;top: 0;left: 0;width: 100%;}
+/*.img-wrapper {position: absolute;top: 0;left: 0;width: 100%;}*/
 
 /* Hero */
 /*.hero {position: relative;background: #006E6D;overflow: hidden;height: 0;padding-bottom: 56.25%;}*/
