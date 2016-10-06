@@ -23,7 +23,7 @@ img {
 /* HERO */
 .hero {
   position: relative;
-  /*background: purple;*/
+  background: purple;
   overflow: hidden;
   /* min-height: 500px; */
   height: 0;
