@@ -1,7 +1,7 @@
-var image = $("#test");
+var image = $(".test");
 
 image.on('load', function(){
-  console.log('Loaded');
+  console.log('Image Loaded');
   image.animate({opacity:1}, 1000);
   console.log('Opacity Changed');
 });
