@@ -23,7 +23,7 @@ img {
 /* HERO */
 .hero {
   position: relative;
-  background: #5D5CA1;
+  background: #006E6D;
   overflow: hidden;
   /* min-height: 500px; */
   height: 0;
@@ -61,7 +61,7 @@ img {
 }
 
 footer {
-  background: #5D5CA1;
+  background: #006E6D;
   padding: 1em;
   overflow: hidden;
   color: white;
