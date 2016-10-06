@@ -1,76 +1,23 @@
 /* Resets */
-* {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-
+* {margin:0;padding:0;box-sizing: border-box;}
 body {font-family: 'Tahoma', sans-serif;;}
-
 h1, h2, p {margin-bottom: 1em;}
+img {width: 100%;height: auto;}
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-.container {
-  position:relative;
-  margin: 0 auto;
-}
-
-/* HERO */
-.hero {
-  position: relative;
-  background: #006E6D;
-  overflow: hidden;
-  /* min-height: 500px; */
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
-.hero-title {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top: 20vw;
-  top: 0;
-  color: white;
-  font-size: 10vw;
-}
-
-.final-image {
-  opacity: 0;
-}
-
-/* */
+/* Base Styles */
+.container {position:relative;margin: 0 auto;}
 .page-content {padding: 1em;}
+.img-wrapper {position: absolute;top: 0;left: 0;width: 100%;}
 
-.img-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+/* Hero */
+.hero {position: relative;background: #006E6D;overflow: hidden;height: 0;padding-bottom: 56.25%;}
+.hero-title {position: absolute;width: 100%;text-align: center;margin-top: 20vw;top: 0;color: white;font-size: 10vw;}
+.final-image {opacity: 0;}
 
-footer {
-  background: #006E6D;
-  padding: 1em;
-  overflow: hidden;
-  color: white;
-}
-
+/* Footer */
+footer {background: #006E6D;padding: 1em;overflow: hidden;color: white;}
 footer ul {list-style: none;}
 footer a {color: white;text-decoration: none;}
-
-footer .container {
-  padding: 0 1em;
-}
-
-.footer-text {
-  float: left;
-}
-
-.footer-links {
-  float: right;
-}
+footer .container {padding: 0 1em;}
+.footer-text {float: left;}
+.footer-links {float: right;}
