@@ -43,6 +43,13 @@ img {
 /* */
 .page-content {padding: 1em;}
 
+.img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 footer {
   background: purple;
   padding: 1em;
