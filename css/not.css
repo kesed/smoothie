@@ -9,7 +9,7 @@ img {width: 100%;height: auto;}
 .page-content {padding: 1em;}
 
 /* Hero */
-.hero-title {position: absolute;width: 100%;text-align: center;margin-top: 20vw;top: 0;color: white;font-size: 10vw;}
+.hero-title {position: absolute;width: 100%;text-align: center;margin-top: 20vw;top: 0;color: #BE1E4E;font-size: 10vw;}
 
 /* Footer */
 footer {background: #006E6D;padding: 1em;overflow: hidden;color: white;}
