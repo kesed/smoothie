@@ -23,7 +23,7 @@ img {
 /* HERO */
 .hero {
   position: relative;
-  background: purple;
+  background: #5D5CA1;
   overflow: hidden;
   /* min-height: 500px; */
   height: 0;
@@ -38,6 +38,12 @@ img {
   top: 0;
   color: white;
   font-size: 3em;
+}
+
+@media (min-width : 800px) {
+  .hero-title {
+    margin-top: 4em;
+  }
 }
 
 .final-image {
@@ -55,7 +61,7 @@ img {
 }
 
 footer {
-  background: purple;
+  background: #5D5CA1;
   padding: 1em;
   overflow: hidden;
   color: white;
