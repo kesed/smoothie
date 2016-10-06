@@ -7,6 +7,8 @@ $(image).one("load", function() {
   if(this.complete) $(this).load();
 });
 
+console.log("T1");
+
 $("img.full-size").one("load", function() {
   console.log("second code block triggered test");
 }).each(function() {
