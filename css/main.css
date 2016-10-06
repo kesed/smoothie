@@ -20,3 +20,4 @@ footer ul {list-style: none;}
 footer a {color: white;text-decoration: none;}
 .footer-text {float: left;}
 .footer-links {float: right;}
+.footer-links ul li {display: inline;}
