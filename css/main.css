@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {font-family: sans-serif;}
+body {font-family: 'Titillium Web', sans-serif;;}
 
 h1, h2, p {margin-bottom: 1em;}
 
@@ -69,6 +69,10 @@ footer {
 
 footer ul {list-style: none;}
 footer a {color: white;text-decoration: none;}
+
+footer .container {
+  padding: 0 1em;
+}
 
 .footer-text {
   float: left;
