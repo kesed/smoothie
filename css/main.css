@@ -12,7 +12,7 @@ img {width: 100%;height: auto;}
 /* Hero */
 .hero {position: relative;background: #006E6D;overflow: hidden;height: 0;padding-bottom: 56.25%;}
 .hero-title {position: absolute;width: 100%;text-align: center;margin-top: 20vw;top: 0;color: white;font-size: 10vw;}
-.final-image {opacity: 0;}
+img.full-size {opacity: 0;}
 
 /* Footer */
 footer {background: #006E6D;padding: 1em;overflow: hidden;color: white;}

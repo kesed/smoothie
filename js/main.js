@@ -1,4 +1,4 @@
-var image = $(".test");
+var image = $("img.full-size");
 
 image.on('load', function(){
   console.log('Image Loaded');
